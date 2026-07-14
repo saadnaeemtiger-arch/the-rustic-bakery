@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta name='description' content='The Rustic Bakery offers a unique blend of traditional and modern bakery delights in the heart of Riyadh.'>
+<title>The Rustic Bakery</title>
+<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap' rel='stylesheet'>
+<style>
+body { margin: 0; font-family: 'Poppins', sans-serif; background-color: #FFF8F0; color: #333; }
+header { background-color: #FF6B35; padding: 20px; position: sticky; top: 0; z-index: 1000; }
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: 600; }
+.hero { display: flex; flex-direction: column; justify-content: center; align-items: center; background-image: url('https://source.unsplash.com/1600x900/?rustic-bakery'); background-size: cover; color: white; height: 80vh; text-align: center; }
+.hero h1 { font-size: 3em; text-shadow: 2px 2px 4px #333; }
+.hero p { font-size: 1.5em; text-shadow: 1px 1px 3px #333; }
+.hero button { padding: 10px 20px; background-color: #FFF8F0; color: #FF6B35; border: none; cursor: pointer; font-size: 1em; }
+.about, .services, .gallery, .testimonials, .faq, .contact, footer { padding: 50px 20px; max-width: 1200px; margin: auto; }
+section h2 { color: #FF6B35; text-align: center; margin-bottom: 20px; }
+.services .card, .testimonials .card, .faq .card { background-color: #fff; padding: 15px; margin-bottom: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+.footer { background-color: #333; color: #fff; text-align: center; padding: 20px; }
+.footer a { color: #FF6B35; text-decoration: none; }
+.floating-whatsapp { position: fixed; bottom: 20px; right: 20px; }
+.floating-whatsapp img { width: 50px; height: 50px; }
+@media (max-width: 768px) { .hero h1 { font-size: 2em; } .hero p { font-size: 1em; } }
+</style>
+</head>
+<body>
+<header>
+<nav>
+<a href='#about'>About</a>
+<a href='#services'>Services</a>
+<a href='#gallery'>Gallery</a>
+<a href='#testimonials'>Testimonials</a>
+<a href='#faq'>FAQ</a>
+<a href='#contact'>Contact</a>
+</nav>
+</header>
+<section class='hero'>
+<h1>The Rustic Bakery</h1>
+<p>Where Tradition Meets Innovation</p>
+<button>Visit Us Now</button>
+</section>
+<section id='about' class='about'>
+<h2>About Us</h2>
+<p>At The Rustic Bakery, we are passionate about delivering a unique bakery experience that blends the charm of traditional baking with modern innovations. Located in Riyadh, our bakery is a haven for those who appreciate the art and craft of baking.</p>
+<p>Our story is rooted in our commitment to quality and authenticity. Each product is crafted with the finest ingredients and a meticulous attention to detail. With over a decade of experience, our bakers specialize in creating confections that are not only delicious but also a feast for the eyes.</p>
+<p>We invite you to join us on a culinary journey where every bite tells a story of tradition and taste. Whether it's our artisanal breads, exquisite pastries, or bespoke cakes, each creation is a testament to the creativity and passion that defines The Rustic Bakery.</p>
+</section>
+<section id='services' class='services'>
+<h2>Our Specialties</h2>
+<div class='card'>
+<h3>Artisanal Breads</h3>
+<p>Our range of freshly baked breads are crafted from traditional recipes, offering a delightful array of flavors and textures.</p>
+</div>
+<div class='card'>
+<h3>Delectable Pastries</h3>
+<p>Indulge in our selection of pastries, each made with a keen eye for detail and a devotion to taste.</p>
+</div>
+<div class='card'>
+<h3>Custom Cakes</h3>
+<p>Every celebration deserves a bespoke cake; our custom designs cater to your aesthetic and flavor preferences.</p>
+</div>
+<div class='card'>
+<h3>Gourmet Breakfast</h3>
+<p>Start your day with our delightful breakfast offerings, featuring a mix of sweet and savory treats.</p>
+</div>
+<div class='card'>
+<h3>Catering Services</h3>
+<p>Let us bring our creations to you; our catering services are perfect for any event or gathering.</p>
+</div>
+</section>
+<section id='gallery' class='gallery'>
+<h2>Gallery</h2>
+<div><img src='https://source.unsplash.com/600x400/?rustic-breads' alt='Bakery Image 1'></div>
+<div><img src='https://source.unsplash.com/600x400/?artisan-pastries' alt='Bakery Image 2'></div>
+<div><img src='https://source.unsplash.com/600x400/?bakery-cakes' alt='Bakery Image 3'></div>
+<div><img src='https://source.unsplash.com/600x400/?bread-baking' alt='Bakery Image 4'></div>
+<div><img src='https://source.unsplash.com/600x400/?pastry-shop' alt='Bakery Image 5'></div>
+<div><img src='https://source.unsplash.com/600x400/?cake-decorating' alt='Bakery Image 6'></div>
+</section>
+<section id='testimonials' class='testimonials'>
+<h2>Testimonials</h2>
+<div class='card'>
+<p>The Rustic Bakery is a true gem in Riyadh. Their bread is simply unparalleled!</p>
+<p>- Faisal S. <span>★★★★★</span></p>
+</div>
+<div class='card'>
+<p>I love their pastries! Every visit is a delightful experience.</p>
+<p>- Amina Y. <span>★★★★★</span></p>
+</div>
+<div class='card'>
+<p>The cakes here are not only beautiful but also delicious. Highly recommend!</p>
+<p>- Ranya Z. <span>★★★★☆</span></p>
+</div>
+</section>
+<section id='faq' class='faq'>
+<h2>Frequently Asked Questions</h2>
+<div class='card'>
+<h3>Do you use natural ingredients?</h3>
+<p>Yes, we use only the finest and most natural ingredients in all our products.</p>
+</div>
+<div class='card'>
+<h3>Can I visit your bakery for a tour?</h3>
+<p>Absolutely, we welcome all enthusiasts to come and see how our creations are made.</p>
+</div>
+<div class='card'>
+<h3>Are your bakery items gluten-free?</h3>
+<p>We offer a range of gluten-free options for those with dietary needs.</p>
+</div>
+<div class='card'>
+<h3>Do you deliver?</h3>
+<p>Yes, we offer delivery services throughout Riyadh.</p>
+</div>
+<div class='card'>
+<h3>What are your operating hours?</h3>
+<p>We are open from 8 AM to 9 PM daily.</p>
+</div>
+</section>
+<section id='contact' class='contact'>
+<h2>Contact Us</h2>
+<p>Phone: +966 554748558</p>
+<p>Address: 2619 Prince Saud Ibn Abdul Aziz Al Saud Al Kabir Rd, Al Quds, Riyadh, Saudi Arabia</p>
+<iframe src='https://maps.google.com/maps?q=2619%20Prince%20Saud%20Ibn%20Abdul%20Aziz%20Al%20Saud%20Al%20Kabir%20Rd,%20Al%20Quds,%20Riyadh,%20Saudi%20Arabia&t=&z=13&ie=UTF8&iwloc=&output=embed' width='100%' height='250' style='border:0;' allowfullscreen='' loading='lazy'></iframe>
+</section>
+<footer class='footer'>
+<p>&copy; 2026 The Rustic Bakery. All rights reserved.</p>
+<a href='#'>Back to top</a>
+</footer>
+<div class='floating-whatsapp'>
+<a href='https://wa.me/+966554748558'><img src='https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg' alt='WhatsApp'></a>
+</div>
+</body>
+</html>
